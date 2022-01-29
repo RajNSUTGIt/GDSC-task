@@ -1,0 +1,196 @@
+.align {
+  display: flex;
+  justify-items: center;
+}
+.divide {
+  position: absolute;
+  width: 98%;
+  height: 10vh;
+}
+.Title {
+  display: flex;
+  position: absolute;
+  top: 0vh;
+  left: 4vw;
+  font-family: 'Audiowide', cursive;
+  font-size: 8vw;
+}
+.pos1 {
+  position: absolute;
+  top: 0.5vh;
+  right: 7vw;
+}
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 3vw;
+  border: none;
+  outline: none;
+  color: black;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgba(253, 253, 253, 0);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding-top: 2vh;
+  padding-left: 0.7vw;
+  padding-bottom: 2vh;
+  padding-right: 4.5vw;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropbtn img {
+  display: flex;
+  justify-items: center;
+  position: absolute;
+  width: 3vw;
+  height: auto;
+}
+body {
+  background-image: url("Hobbies.jpg");
+}
+.photo1 {
+  display: flexbox;
+  justify-content: center;
+  position: absolute;
+  top: 32vh;
+  left: 28vw;
+  font-family: "Bungee", cursive;
+  font-size: 1.5vw;
+  opacity: 0;
+  animation-name: show;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+.photo2 {
+  display: flexbox;
+  justify-content: center;
+  position: absolute;
+  top: 32vh;
+  right: 25vw;
+  font-size: 1.5vw;
+  font-family: "Bungee", cursive;
+  opacity: 0;
+  animation-name: show;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-delay: 2s;
+}
+.photo3 {
+  display: flexbox;
+  justify-content: center;
+  position: absolute;
+  bottom: 12vh;
+  left: 5vw;
+  font-size: 1.5vw;
+  font-family: "Bungee", cursive;
+  opacity: 0;
+  animation-name: show;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-delay: 3s;
+}
+.photo4 {
+  display: flexbox;
+  justify-content: center;
+  position: absolute;
+  bottom: 9.5vh;
+  left: 44vw;
+  font-size: 1.5vw;
+  font-family: "Bungee", cursive;
+  opacity: 0;
+  animation-name: show;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-delay: 4s;
+}
+.photo5 {
+  display: flexbox;
+  justify-content: center;
+  position: absolute;
+  bottom: 12vh;
+  right: 5vw;
+  font-size: 1.5vw;
+  font-family: "Bungee", cursive;
+  opacity: 0;
+  animation-name: show;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-delay: 5s;
+}
+.photo1 img {
+  display: flex;
+  justify-content: center;
+  width: 10vw;
+  height: auto;
+  border: 2px black solid;
+}
+.photo2 img {
+  display: flex;
+  justify-content: center;
+  width: 10vw;
+  height: auto;
+  border: 2px black solid;
+}
+.photo3 img {
+  display: flex;
+  justify-content: center;
+  width: 10vw;
+  height: auto;
+  border: 2px black solid;
+}
+.photo4 img {
+  display: flex;
+  justify-content: center;
+  width: 10vw;
+  height: auto;
+  border: 2px black solid;
+}
+.photo5 img {
+  display: flex;
+  justify-content: center;
+  width: 10vw;
+  height: auto;
+  border: 2px black solid;
+}
+@keyframes show{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
